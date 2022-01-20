@@ -1,0 +1,31 @@
+.AddThoughtForm {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 10px;
+}
+
+.AddThoughtForm input {
+  padding: 1.2rem;
+  border: 1px solid #666;
+  border-radius: 3px;
+}
+
+.AddThoughtForm input[type="text"] {
+  flex-grow: 1;
+}
+
+.AddThoughtForm input[type="submit"] {
+  width: 120px;
+}
+
+input,
+button {
+  font: inherit;
+  box-sizing: border-box;
+}
+
+input[type="submit"],
+button {
+  cursor: pointer;
+}

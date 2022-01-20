@@ -1,0 +1,19 @@
+.Thought {
+  padding: 1rem;
+  margin-bottom: 1rem;
+  border-radius: 3px;
+  background-color: #eee;
+}
+
+.Thought .remove-button {
+  font-size: 80%;
+  float: right;
+  border: 0;
+  border-radius: 3px;
+  background: transparent;
+}
+
+.Thought .remove-button:hover {
+  color: #fff;
+  background-color: #000;
+}
