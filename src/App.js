@@ -62,7 +62,7 @@ const Home = () => {
 
 const NoMatch = () => {
   return (
-    <p style={{ color: "#ff8300", textAlign: "center" }}>
+    <p style={{ color: "rgb(176, 0, 0)", textAlign: "center" }}>
       Oops! The page you requested was not found!
     </p>
   );
